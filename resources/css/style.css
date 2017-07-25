@@ -1,7 +1,50 @@
+
+
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: grey;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+
+  width: 100%;
+
+  flex-grow: 3;
+  justify-content: space-between;
+  border: 3px solid green;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+header img {
+  margin: 15px;
+  max-height: 50px;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-around;
+  flex-shrink: 0;
+  margin: 5px;
+}
+
+nav span {
+  margin: 20px;
+}
+
+.content {
+ position: relative;
+ top: 69px;
+
 }
