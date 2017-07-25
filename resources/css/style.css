@@ -149,3 +149,17 @@ nav span {
   display: block;
   margin: 35px 10px;
 }
+
+
+/*FOOTER SECTION*/
+/****************************/
+
+footer {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
